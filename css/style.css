@@ -123,6 +123,9 @@ body {
     margin: auto;
     margin-top: 2em;
     max-width: 900px;
+    padding-left:1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
 }
 
 .nav-tabs {
