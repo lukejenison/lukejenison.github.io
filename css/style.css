@@ -58,6 +58,27 @@ body {
     cursor: pointer;
 }
 
+@media (max-width: 810px) {
+    .navbar-menu {
+        margin: auto;
+        float: center;
+        margin-top: 10px;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        font-family: "Proxima Nova", sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        letter-spacing: 1.4px;
+        color: #464351;
+    }
+
+    .navbar-menu a {
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
 
 
 
@@ -73,7 +94,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 700px;
+    max-width: 500px;
+    max-height: 100%;
 }
 
 .hero-image-music {
@@ -311,13 +333,16 @@ iframe .music-iframe {
         -webkit-transform: translate(0, 0);
         opacity: 0;
     }
+
     40% {
         opacity: 1;
     }
+
     80% {
         -webkit-transform: translate(0, 20px);
         opacity: 0;
     }
+
     100% {
         opacity: 0;
     }
@@ -329,14 +354,17 @@ iframe .music-iframe {
         transform: translate(0, 0);
         opacity: 0;
     }
+
     40% {
         opacity: 1;
     }
+
     80% {
         -webkit-transform: translate(0, 20px);
         transform: translate(0, 20px);
         opacity: 0;
     }
+
     100% {
         opacity: 0;
     }
@@ -371,6 +399,7 @@ iframe .music-iframe {
     h2 {
         font-size: 36px;
     }
+
     #spacer {
         height: 100px;
     }
@@ -493,9 +522,11 @@ iframe .music-iframe {
     .nav-mobile {
         display: none;
     }
+
     .mobile-menu {
         display: none;
     }
+
     .nav-background {
         border: none;
     }
@@ -505,11 +536,11 @@ iframe .music-iframe {
     .nav-desktop {
         display: none;
     }
+
     .header-logo {
         margin-left: 30px;
     }
 }
-
 
 
 
@@ -566,6 +597,7 @@ iframe .music-iframe {
         max-width: 960px;
         width: 960px;
     }
+
     .container.is-fluid {
         margin-left: 64px;
         margin-right: 64px;
@@ -817,7 +849,7 @@ iframe .music-iframe {
 
 
 
-/* hello! */ 
+/* hello! */
 
 
 
@@ -911,9 +943,11 @@ iframe .music-iframe {
     .nav-mobile {
         display: none;
     }
+
     .mobile-menu {
         display: none;
     }
+
     .nav-background {
         border: none;
     }
@@ -923,6 +957,7 @@ iframe .music-iframe {
     .nav-desktop {
         display: none;
     }
+
     .header-logo {
         margin-left: 30px;
     }
@@ -1085,6 +1120,7 @@ iframe .music-iframe {
     #music #music-body {
         width: 95%;
     }
+
     #music #music-body #music-text {
         -webkit-transition: 0s;
         -moz-transition: 0s;
@@ -1092,6 +1128,7 @@ iframe .music-iframe {
         -o-transition: 0s;
         transition: 0s;
     }
+
     #music #music-body #player {
         -webkit-transition: 0s;
         -moz-transition: 0s;
@@ -1107,6 +1144,7 @@ iframe .music-iframe {
         -ms-flex-pack: center;
         justify-content: center;
     }
+
     #music #music-body #player {
         width: 90%;
         -webkit-box-ordinal-group: 3;
@@ -1114,6 +1152,7 @@ iframe .music-iframe {
         order: 2;
         margin-top: 50px;
     }
+
     #music #music-text {
         width: 90%;
         margin-top: 10px;
@@ -1149,7 +1188,7 @@ iframe .music-iframe {
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
-    padding-top: 30px; 
-    height: 0; 
+    padding-top: 30px;
+    height: 0;
     overflow: hidden;
 }
