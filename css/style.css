@@ -94,7 +94,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 500px;
+    max-width: 100%;
     max-height: 100%;
 }
 
@@ -1056,6 +1056,11 @@ iframe .music-iframe {
 }
 
 #music-body #player img {
+    width: 100%;
+    height: auto;
+}
+
+#about-pics img {
     width: 100%;
     height: auto;
 }
