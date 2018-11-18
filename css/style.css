@@ -41,7 +41,7 @@ body {
 .navbar-menu {
     margin-right: 50px;
     margin-top: 10px;
-    float: right;
+    /*float: right;*/
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
@@ -125,7 +125,6 @@ body {
     max-width: 900px;
     padding-left:1em;
     padding-right: 1em;
-    padding-bottom: 2em;
 }
 
 .nav-tabs {
@@ -521,7 +520,7 @@ iframe .music-iframe {
     display: none;
 }
 
-@media (min-width: 600px) {
+/*@media (min-width: 600px) {
     .nav-mobile {
         display: none;
     }
@@ -543,7 +542,7 @@ iframe .music-iframe {
     .header-logo {
         margin-left: 30px;
     }
-}
+}*/
 
 
 
@@ -956,7 +955,7 @@ iframe .music-iframe {
     }
 }
 
-@media (max-width: 599px) {
+/*@media (max-width: 599px) {
     .nav-desktop {
         display: none;
     }
@@ -964,7 +963,7 @@ iframe .music-iframe {
     .header-logo {
         margin-left: 30px;
     }
-}
+}*/
 
 #footer {
     color: #386f65;
