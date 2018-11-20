@@ -37,7 +37,7 @@ body {
 }
 
 .navbar-menu {
-    margin-right: 50px;
+    margin: auto;
     margin-top: 10px;
     /*float: right;*/
     -webkit-box-ordinal-group: 3;
